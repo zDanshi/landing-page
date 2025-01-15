@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Virtual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </div>
+
+        <div class="main-menu">
+          <ul>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a class="btn" href="/Login.html"> <i class="fas fa-user"></i> Entrar </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <ul>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Sobre nós</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a class="btn" href="/Login.html"> <i class="fas fa-user"></i> Entrar </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-heading text-xxl">
+            Uma solução para amantes de livros!
+          </h1>
+          <p class="hero-text">
+            Explore, aprenda e expanda seu conhecimento com nossa biblioteca virtual 
+              completa e acessível a qualquer momento.
+          </p>
+          <div class="hero-buttons">
+            <a href="/Login.html" class="btn btn-primary">Vamos lá!</a>
+            <a href="#" class="btn"
+              ><i class="fas fa-laptop"></i> Experimente gratuitamente</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video bg-black">
+      <div class="container-sm">
+        <h2 class="video-heading text-xl text-center">
+          Veja como funciona e começe a ler em menos de 1 minuto
+        </h2>
+        <div class="video-content">
+          <a href="#">
+            <img
+              src="images/video-preview.png"
+              alt="video"
+              class="video-preview"
+            />
+          </a>
+
+          <a href="/Login.html" class="btn btn-primary">Vamos lá!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials bg-dark">
+      <div class="container">
+        <h3 class="testimonials-heading text-xl">
+          Não acredite apenas na nossa palavra, dê uma olhada na opinião de outros 
+          leitores como você.
+        </h3>
+        <div class="testimonials-grid">
+          <div class="card">
+            <p>
+              “Uma verdadeira revolução no meu aprendizado! A biblioteca virtual
+               me deu acesso a materiais incríveis.”
+            </p>
+
+            <p>Ruanna</p>
+            <p>Estudante de Engenharia</p>
+          </div>
+
+          <div class="card">
+            <p>
+              “Adoro a praticidade de ter todo o conteúdo que preciso ao alcance de um clique.”
+            </p>
+
+            <p>Leda Maria</p>
+            <p>Professora de História</p>
+          </div>
+
+          <div class="card">
+            <p>
+              “Excelente ferramenta! A organização dos livros e artigos me ajuda a ser mais eficiente
+               e focado.”
+            </p>
+
+            <p>Carlos Humberto</p>
+            <p>Pesquisador</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+      <div class="container-sm">
+        <h3 class="pricing-heading text-xl text-center">Preços</h3>
+        <p class="pricing-subheading text-md text-center">
+          Escolha o Plano Ideal para Você!
+        </p>
+
+        <div class="pricing-grid">
+          
+          <!-- Pricing Card 1 -->
+          <div class="card bg-light">
+            <div class="pricing-card-header">
+              <h4 class="pricing-heading text-xl">Simples</h4>
+              <p class="pricing-card-subheading">
+                Acesso gratuito a uma ampla seleção de livros, artigos e materiais educativos. 
+                Ideal para quem está começando a explorar o universo do conhecimento.
+              </p>
+              <p class="pricing-card-price">
+                <span class="text-xl">Free</span>
+              </p>
+            </div>
+            <div class="pricing-card-body">
+              <ul>
+                <li><i class="fas fa-check"></i>Acesso a livros e artigos</li>
+                <li>
+                  <i class="fas fa-check"></i>Ferramentas de pesquisa
+                </li>
+                <li><i class="fas fa-check"></i>Marcadores e Anotações</li>
+                <li>
+                  <i class="fas fa-check"></i>Desafios e Metas de Leitura
+                </li>
+                
+              </ul>
+              <a href="/Login.html" class="btn btn-primary btn-block">Vamos lá!</a>
+            </div>
+          </div>
+
+          <!-- Pricing Card 2 -->
+          <div class="card bg-black">
+            <div class="pricing-card-header">
+              <h4 class="pricing-card-heading text-xl">Premium</h4>
+              <p class="pricing-card-subheading">
+                Aproveite todos os recursos exclusivos, com acesso ilimitado a conteúdos avançados, 
+                ferramentas de personalização e muito mais. Transforme sua experiência de aprendizado com total liberdade.
+              </p>
+              <p class="pricing-card-price">
+                <span class="text-xl">R$25</span> /mês 
+              </p>
+              
+            </div>
+            <div class="pricing-card-body">
+              <ul>
+                <li><i class="fas fa-check"></i>Leitura Offline</li>
+                <li><i class="fas fa-check"></i>Modo Noturno</li>
+                <li><i class="fas fa-check"></i>Recomendações Personalizadas</li>
+                <li><i class="fas fa-check"></i>Biblioteca Compartilhada</li>
+                <li><i class="fas fa-check"></i>Modo de Leitura em Áudio</li>
+              </ul>
+              <a href="/Login.html" class="btn btn-primary btn-block">Vamos lá!</a>
+            </div>
+          </div>
+        </div>
+        <p class="pricing-footer text-center">
+          Já aplicado todos os valores de impostos na finalização da compra.
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq bg-light">
+      <div class="container-sm">
+        <h3 class="text-xl text-center">Perguntas frequentes</h3>
+       
+        <div class="faq-content">
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                Posso cancelar minha assinatura a qualquer momento?
+              </h4>
+              <i class="fas fa-minus"></i>
+            </div>
+            <div class="faq-group-body open">
+              <p>
+                Sim! Você pode cancelar sua assinatura do plano Premium 
+                a qualquer momento diretamente nas configurações do aplicativo. 
+                O cancelamento será efetivado no final do ciclo de cobrança atual.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                Existe algum limite para o número de livros que posso ler?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                No plano Free, há um limite de livros e artigos disponíveis. 
+                Já no plano Premium, você tem acesso ilimitado a todo o conteúdo da plataforma.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                O que posso fazer se esquecer minha senha?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Caso esqueça sua senha, clique na opção "Esqueci minha senha"
+                 na tela de login. Você receberá um link para redefinir sua senha e 
+                 recuperar o acesso à sua conta.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                O aplicativo oferece recursos de acessibilidade?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Sim! O aplicativo possui opções como modo noturno, 
+                ajuste de tamanho de texto e suporte a leitores de tela para garantir 
+                uma experiência inclusiva para todos os usuários.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">O aplicativo tem suporte para múltiplos dispositivos?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                Sim! Você pode acessar sua conta em vários dispositivos, como smartphones, 
+                tablets e computadores, e seus progressos de leitura serão sincronizados automaticamente.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-group">
+            <div class="faq-group-header">
+              <h4 class="text-md">
+                Como funciona o plano Premium?
+              </h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-group-body">
+              <p>
+                O plano Premium oferece acesso ilimitado a todos os conteúdos da plataforma, 
+                além de funcionalidades exclusivas, como ferramentas de personalização, suporte prioritário 
+                e recomendações personalizadas. Você pode assinar o plano Premium por meio de uma cobrança mensal ou anual.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-black">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+            <div class="card">
+              <h4>Assine nossa Newsletter</h4>
+              <p class="text-sm">
+                Fique por dentro das novidades, lançamentos e dicas exclusivas 
+                para expandir seu conhecimento!
+              </p>
+              <form>
+                <input type="email" id="email" placeholder="Digite seu email" />
+                <button type="submit" class="btn btn-primary btn-block">
+                  Enviar
+                </button>
+              </form>
+            </div>
+            
+          </div>
+         
+          <div>
+            <h4>Ajuda</h4>
+            <ul>
+              <li><a href="#">Artigos Acadêmicos</a></li>
+              <li><a href="#">Guias e Tutoriais</a></li>
+              <li><a href="#">Suporte</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contato</h4>
+            <ul>
+              <li>
+                <a href="#">contato@bibliotecavirtual.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
